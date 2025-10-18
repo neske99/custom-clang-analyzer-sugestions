@@ -13,6 +13,6 @@ Ovaj projekat je rad na temu "Izrada novih semantičkih provera u okviru alata C
 
 ![Image holder](CMakeListDiff.png)
 
-![Image holder](CheckerDiff.png)
+![Image holder](CheckersDiff.png)
 
 
