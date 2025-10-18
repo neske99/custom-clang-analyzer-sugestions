@@ -11,4 +11,8 @@ Ovaj projekat je rad na temu "Izrada novih semantičkih provera u okviru alata C
   
 `git clone git@github.com:neske99/custom-clang-analyzer-sugestions.git`
 
+![Image holder](CMakeListDiff.png)
+
+![Image holder](CheckerDiff.png)
+
 
