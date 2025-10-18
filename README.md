@@ -7,4 +7,4 @@ Ovaj projekat je rad na temu "Izrada novih semantičkih provera u okviru alata C
 
 `git clone --depth=1 --branch main git@github.com:llvm/llvm-project.git`
 
-`git@github.com:neske99/custom-clang-analyzer-sugestions.git`
+`git clone git@github.com:neske99/custom-clang-analyzer-sugestions.git`
