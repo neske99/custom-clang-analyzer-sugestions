@@ -22,8 +22,11 @@ List the new optimizations in your Checkers.td file of the llvm project path: cl
 Then create a build folder from root and cd into of the project, cd into it and run:
 
  `cmake -DLLVM_ENABLE_PROJECTS=clang  -G "Unix Makefiles" ../llvm`
+ 
  `make` --optional use -j(num processors) this can reduce the time but can also fail because of wrong order of execution sometimes
+
 Example run:
+
 `./build/bin/scan-build -enable-checker alpha.unix.DefaultValuesUndefined clang++ filename.cpp`
 
 
