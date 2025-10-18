@@ -11,8 +11,12 @@ Ovaj projekat je rad na temu "Izrada novih semantičkih provera u okviru alata C
   
 `git clone git@github.com:neske99/custom-clang-analyzer-sugestions.git`
 
+Add the checkers from the optimization folder(from this project) in the clang/lib/StaticAnalyzer/Checkers folder of the clang project.
+
+List the new optimizations in your CMakeLists.txt folder of the llvm project, path: clang/lib/StaticAnalyzer/Checkers.
 ![Image holder](CMakeListDiff.png)
 
+List the new optimizations in your Checkers.td file of the llvm project path: clang/lib/StaticAnalyzer/Checkers. 
 ![Image holder](CheckersDiff.png)
 
 
